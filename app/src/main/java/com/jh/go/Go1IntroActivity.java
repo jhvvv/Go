@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 public class Go1IntroActivity extends AppCompatActivity {
 
     // github push test1
+    // test2
 
     Animation ani1, ani2;
     LinearLayout layoutIntro;
