@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Go3D_PicFragment">
+
+
+    <Button
+        android:id="@+id/btnPhotoAdd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/clear"
+        android:textStyle="bold"
+        android:textColor="@color/indigo"
+        android:textSize="25dp"
+        android:text="Add" />
+
+    <GridView
+        android:id="@+id/grid_test"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:layout_margin="10dp"
+        android:columnWidth="90dp"
+        android:numColumns="3"
+
+        android:scrollbarStyle="insideInset"
+        android:verticalScrollbarPosition="right"
+        android:scrollbarSize="10dp"
+        android:scrollbarThumbVertical="@color/indigo"
+        android:scrollbarTrackVertical="@color/white"
+        />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mypage"
+        android:title="내정보"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/groupOut"
+        android:title="그룹나가기"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="로그아웃"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/withdrawal"
+        android:title="탈퇴하기"
+        app:showAsAction="never"/>
+
+</menu>
